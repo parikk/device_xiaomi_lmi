@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lmi.mk
+    $(LOCAL_DIR)/evolution_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lmi-eng \
-    aosp_lmi-user \
-    aosp_lmi-userdebug
+    evolution_lmi-eng \
+    evolution_lmi-user \
+    evolution_lmi-userdebug
