@@ -28,4 +28,7 @@
 
     <!-- Define battery charge cycle node -->
     <string name="config_battery_charge_cycle">/sys/class/power_supply/bms/cycle_count</string>
+
+        <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">true</bool>
 </resources>
