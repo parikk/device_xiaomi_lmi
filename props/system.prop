@@ -7,6 +7,9 @@ vendor.fastrpc.disable.adsprpcd_sensorspd.daemon=1
 persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
 
+# Blur
+persist.sys.sf.disable_blurs=1
+
 # Camera
 persist.camera.gyro.disable=0
 
