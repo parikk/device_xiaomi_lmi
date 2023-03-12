@@ -21,8 +21,8 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_lmi
 PRODUCT_DEVICE := lmi
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO F2 Pro
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi K30 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_SYSTEM_NAME := lmi
 
@@ -30,7 +30,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ1A.230105.002/9325679:user/release-keys"
+BUILD_FINGERPRINT := Redmi/lmi/lmi:12/RKQ1.211001.001/V13.0.6.0.SJKCNXM:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lmi-user 12 RKQ1.211001.001 V13.0.6.0.SJKCNXM release-keys" \
