@@ -1,6 +1,6 @@
 echo 'Cloning Kernel Tree'
 # Kernel Tree
-git clone --depth=1 https://github.com/parikk/android_kernel_xiaomi_lmi.git -b test kernel/xiaomi/lmi
+git clone --depth=1 https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250.git -b rebase kernel/xiaomi/sm8250
 
 echo 'Cloning Vendor Tree'
 # Vendor Tree
