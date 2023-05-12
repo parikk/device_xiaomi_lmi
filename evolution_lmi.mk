@@ -18,17 +18,6 @@ EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# Pixel Launcher Extended
-$(call inherit-product, vendor/PixelLauncherExtended/PixelLauncher.mk)
-PIXEL_LAUNCHER_VARIANT := glance12
-ENABLE_LOCAL_COLOR_POPUPS := true
-ENABLE_OVERVIEW_SELECTIONS := true
-ENABLE_OVERVIEW_SHARING_TO_PEOPLE := true
-ENABLE_QUICKSTEP_LIVE_TILE := true
-ENABLE_REGION_SAMPLING := true
-ENABLE_SMARTSPACE_DISMISS := true
-QUICK_WALLPAPER_PICKER := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_lmi
 PRODUCT_DEVICE := lmi
