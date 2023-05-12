@@ -20,7 +20,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 
 # Pixel Launcher Extended
 $(call inherit-product, vendor/PixelLauncherExtended/PixelLauncher.mk)
-PIXEL_LAUNCHER_VARIANT := glance22
+PIXEL_LAUNCHER_VARIANT := glance12
 ENABLE_LOCAL_COLOR_POPUPS := true
 ENABLE_OVERVIEW_SELECTIONS := true
 ENABLE_OVERVIEW_SHARING_TO_PEOPLE := true
